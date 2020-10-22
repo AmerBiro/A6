@@ -8,8 +8,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.Toast;
+
+import com.example.a6.activities.Account_Page;
+import com.example.a6.activities.Chat_Page;
+import com.example.a6.activities.Filter_Page;
+import com.example.a6.controller.EventAdapter;
+import com.example.a6.model.MyEvent;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -69,9 +74,6 @@ public class MainActivity extends AppCompatActivity {
         myEventList = new ArrayList<>();
         myEventList.add(new MyEvent(R.drawable.tivoli_event,"Tivoli Event"));
         myEventList.add(new MyEvent(R.drawable.is_event,"Ice Event"));
-        myEventList.add(new MyEvent(R.drawable.ic_baseline_share_24,"Third Event"));
-        myEventList.add(new MyEvent(R.drawable.ic_baseline_filter_alt_36,"Fourth  Event"));
-
 
         eventAdapter = new EventAdapter(this,myEventList);
         viewPager2.setAdapter(eventAdapter);

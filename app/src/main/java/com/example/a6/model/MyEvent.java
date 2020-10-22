@@ -1,4 +1,4 @@
-package com.example.a6;
+package com.example.a6.model;
 
 public class MyEvent {
     private int event_icon;

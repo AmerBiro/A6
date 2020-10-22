@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.A6">
-        <activity android:name=".Account_Page"></activity>
-        <activity android:name=".Chat_Page" />
-        <activity android:name=".Filter_Page" />
+        <activity android:name=".activities.Account_Page"></activity>
+        <activity android:name=".activities.Chat_Page" />
+        <activity android:name=".activities.Filter_Page" />
         <activity android:name=".Acoount_Page" />
         <activity android:name=".MainActivity">
             <intent-filter>
