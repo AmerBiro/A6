@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView button_account, button_filter, button_favorite, button_share, button_chat;
+    ImageButton button_account, button_filter, button_favorite, button_share, button_chat;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
